@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calibri, ,segoe ui, arial, tahoma, sans-serif;
+}
+body{
+	background-color: #DDDDDD;
+}
+
+main{
+	width: 780px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header{
+	background: repeat-x #9e0000;
+	height: 70px;
+	width: 100%;
+	padding: 5px;
+	margin: 20px 0;
+	overflow: hidden;
+}
+.logo{
+	height: 60px;
+	width: 60px;
+	float: left;
+	padding: 5px 0 0 5px;
+}
+.search{
+	float: right;
+	padding: 20px;
+
+}
+nav{
+	margin-top: 20px;
+	list-style: none;
+}
+
+nav li{
+	float: left;
+	padding:  8px 20px;
+	border-right: 1px solid #555555;
+}
+
+nav li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+header form input{
+	border: none;
+	height: 20px;
+}
+
+section{
+	width: 470px;
+	float: left;
+}
+article{
+	background: #ffffff;
+	padding: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.readmore{
+	float: right;
+}
+.readmore a{
+	text-decoration: none;
+}
+article img{
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+	height: 165px;
+}
+article b{
+	color: #616060;
+	background: #DDDDDD;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+article a{
+	display: block;
+	text-align: right;
+	color: #636363;
+}
+article p{
+	margin: 10px 0;
+}
+
+aside{
+	width: 270px;
+	float: right;
+}
+aside h2{
+	font-size: 18px;
+	margin: 10px 0;
+}
+aside p{
+	line-height: 20px;
+	color: #636363;
+}
+aside ul li a{
+	color: #636363;
+	text-decoration: none;
+}
+.side-menu{
+	padding-top: 10px;
+}
+footer{
+	clear: both;
+	margin: 20px 0;
+	text-align-last: center;
+	background-color: #9e0000;
+	padding: 5px;
+	color: white;
+}
+#contact{
+	float: left;
+}
+#contact input{
+	border-radius: 10px;
+}
+#contact textarea{
+	border-radius: 10px;
+}
+#contact button{
+	width: 105px;
+}
